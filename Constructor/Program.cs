@@ -29,7 +29,7 @@ namespace Constructor
         public Bebek()
         {
             DogumTarihi = DateTime.Now;   
-            Console.WriteLine("Ingaaaa"); 
+            
         }
 
         public Bebek(string ad, string soyad)
@@ -37,7 +37,6 @@ namespace Constructor
             Ad = ad;
             Soyad = soyad;
             DogumTarihi = DateTime.Now;   
-            Console.WriteLine("Ingaaaa");
         }
 
         public void PrintInfo()
@@ -56,10 +55,11 @@ namespace Constructor
             
             Bebek bebek2 = new Bebek("Ayşe", "Demir");
 
-            
+            Console.WriteLine("Ingaaaa");
             Console.WriteLine("\nBebek 1 Bilgileri:");
             bebek1.PrintInfo();
 
+            Console.WriteLine("\nIngaaaa");
             Console.WriteLine("\nBebek 2 Bilgileri:");
             bebek2.PrintInfo();
             Console.ReadKey();
